@@ -1,0 +1,255 @@
+.index{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.index *{
+    margin:0;
+}
+header{
+    width:100%;
+    height:0.8rem;
+    background: linear-gradient(rgb(235, 22, 37) 0%, rgba(255, 255, 255, 0) 100%);;
+    color:white;
+    display: flex;
+    position: fixed;
+    top:0;
+    z-index: 99;
+}
+.h-kinds,.h-login{
+    width:1.2rem;
+    height:100%;
+    text-align: center;
+    line-height: 0.8rem;
+}
+img{
+    width:100%;
+    height:auto;
+    display: block;
+}
+.h-search{
+    flex:1;
+    display: flex;
+    align-items: center;
+}
+.h-search p{
+    width:100%;
+    height:60%;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 0.1rem;
+    display: flex;
+    align-items: center;
+    color:gray;
+}
+.h-search i{
+    margin:0rem 0.1rem;
+}
+.active{
+    color:red;
+}
+.h-search input{
+    border:0;
+    background: none;
+    outline: none;
+}
+section{
+    flex:1;
+    overflow: auto;
+}
+.banner{
+    width:100%;
+}
+/* For demo */
+.ant-carousel .slick-slide {
+    text-align: center;
+    height: 160px;
+    line-height: 160px;
+    background: #364d79;
+    overflow: hidden;
+}
+
+.ant-carousel .slick-slide h3 {
+    color: #fff;
+}
+.s-kinds{
+    width:100%;
+    display: flex;
+    padding:0.2rem;
+    box-sizing: border-box;
+    border-top:0.1rem solid #dedede;
+    border-bottom:0.15rem solid #dedede;
+}
+.s-kinds dl{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.s-kinds dl dt{
+    width:60%;
+}
+section>h1{
+    color:red;
+    padding:0.15rem 0rem;
+    text-align: center;
+    border-bottom: 1px solid #dedede;
+}
+.shoe{
+    width:100%;
+    display: flex;
+    border-bottom: 1px solid #dedede;
+}
+.shoe-left{
+    flex:1;
+    text-align: center;
+    border-right: 1px solid #dedede;
+}
+.shoe-left h1{
+    font-weight: 600;
+    margin:0;
+}
+.shoe-left h2{
+    color:red;
+    font-size: 0.22rem;
+    margin:0;
+    text-align: left;
+    text-indent: 0.2rem;
+}
+.shoe-left img{
+    width:80%;
+    height:1.4rem;
+    margin:0 auto;
+    display: block;
+}
+.shoe-right{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+}
+.shoe-right dl{
+    flex:1;
+    display: flex;
+    margin:0;
+
+}
+.shoe-right dl:first-child{
+    border-bottom: 1px solid #dedede;
+
+}
+.shoe-right dt{
+    width:1rem;
+    margin:0;
+    margin-right:0.4rem;
+    padding-bottom: 0.1rem;
+    
+}
+.shoe-right dd{
+    flex:1;
+    margin:0;
+    text-align: center;
+}
+.shoe-right dd h1{
+    font-weight: 600;
+    margin:0;
+}
+.shoe-right dd h2{
+    color:gray;
+    font-size: 0.22rem;
+    margin:0;
+}
+.shoe-btm{
+    width:100%;
+    display: flex;
+    border-bottom: 1px solid #dedede;
+}
+.shoe-btm>div{
+    flex:1;
+    border-right: 1px solid #dedede;
+}
+.shoe-btm>div:last-child{
+    border:0;
+}
+.shoe-btm h1{
+    font-weight: 600;
+    margin:0;
+    text-align: center;
+}
+.shoe-btm h2{
+    color:red;
+    margin:0;
+    text-align: center;
+    font-weight: 400;
+}
+.shoe-btm h3{
+    color:gray;
+    text-decoration: line-through;
+    text-align: center;
+    margin:0;
+    font-weight: 400;
+}
+.shoe-logo{
+    width:100%;
+    padding:0rem 0.1rem;
+}
+.tuijian{
+    padding:0.2rem 0rem;
+    background: #f6f6f6;
+    text-align: center;
+    font-size: 0.3rem;
+    
+}
+.tuijian span{
+    color:#dedede;
+    font-size: 0.2rem;
+}
+
+.clothes{
+    width:100%;
+}
+.clothes dl{
+    width:48%;
+    float: left;
+    margin:0;
+    border-bottom: 0.15rem solid #efefef;
+}
+.clothes dl:nth-child(odd){
+    border-right:0.15rem solid #efefef;
+    box-sizing: content-box;
+}
+.clothes dt{
+    width:100%;
+    padding:0 0.3rem;
+    
+}
+.clothes *{
+    margin:0;
+}
+.clothes dd h2{
+    color:red;
+    margin:0;
+}
+.clothes dd {
+    margin:0;
+}
+footer{
+    width:100%;
+    height:0.8rem;
+    display: flex;
+    border-top:1px solid #dedede;
+}
+footer a{
+    display: block;
+    flex:1;
+    color:black;
+}
+footer a dl{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
